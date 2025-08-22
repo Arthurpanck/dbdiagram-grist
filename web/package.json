@@ -1,0 +1,23 @@
+{
+  "name": "db-diagram-app",
+  "version": "1.0.0",
+  "description": "DB Diagram editor with GrainJS",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack serve --mode=development",
+    "start": "webpack serve --mode=development --open"
+  },
+  "dependencies": {
+    "grainjs": "1.0.2",
+    "@dbml/core": "^2.3.1",
+    "ace-builds": "^1.4.14"
+  },
+  "devDependencies": {
+    "webpack": "5.97.1",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "5.2.1",
+    "esbuild-loader": "4.3.0",
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
